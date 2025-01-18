@@ -65,6 +65,8 @@ Unfortunately, many serial emulators and even some python libraries which commun
 
 \* The work-around for Windows python is to first create the serial port object, without specifying which port to use - this bypasses the Python windows bug which always sets the RTS/DTR pins.  You can then tell the serial object which port, and set the RTS/DTR pins as you like.
 
+On windows though, it's quite simple: ![image](https://github.com/user-attachments/assets/96dd5690-711f-4dab-adb6-b38e8e368d59)
+
 
 ## CircuitPython on ESP32
 
